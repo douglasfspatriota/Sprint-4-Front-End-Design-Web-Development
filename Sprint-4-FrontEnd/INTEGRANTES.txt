@@ -8,5 +8,5 @@ Pedro Henrique Santos de Brito - RM 573187
 Octavio Kal Oliveira Lima - RM 571838
 Vitor Santos Cintra - RM 569416
 
-Repositório Git: https://github.com/SEU-USUARIO/SEU-REPOSITORIO
+Repositório Git: https://github.com/douglasfspatriota/Sprint-4-Front-End-Design-Web-Development.git
 Deploy na Vercel: https://sprint-4-front-end-design-web-devel.vercel.app/
