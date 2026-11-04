@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Paleta e tokens da Sprint 3, agora como tema do Tailwind */
+@theme {
+  --color-azul: #1a3c8f;
+  --color-azul-escuro: #101930;
+  --color-azul-profundo: #0c1424;
+  --color-azul-claro: #eaf0fb;
+  --color-coral: #ff7a45;
+  --color-coral-escuro: #e6602c;
+  --color-cinza: #5a6376;
+  --color-cinza-claro: #8892a6;
+  --color-borda: #e2e6ef;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+
+  --shadow-suave: 0 18px 40px -20px rgba(16, 25, 48, 0.25);
+  --shadow-cartao: 0 10px 26px -18px rgba(16, 25, 48, 0.35);
+
+  --font-sans: "Segoe UI", system-ui, -apple-system, "Roboto", Arial, sans-serif;
+
+  /* breakpoint em que o menu deixa de ser hambúrguer (960px — o menu ganhou o link "Simulador") */
+  --breakpoint-nav: 60rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* compensa o cabeçalho fixo ao navegar por âncoras */
+    scroll-padding-top: 72px;
+  }
+  body {
+    @apply bg-white font-sans leading-relaxed text-azul-escuro antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply leading-tight text-azul-escuro;
+  }
+}
+
+@layer components {
+  .chapeu {
+    @apply mb-2.5 text-xs font-bold uppercase tracking-[1.4px] text-coral-escuro;
+  }
+  .chamada-secao {
+    @apply max-w-[62ch] text-[1.08rem] text-cinza;
+  }
+  .titulo-secao {
+    @apply mb-3 text-[clamp(1.6rem,2.6vw,2.2rem)] font-bold;
+  }
+  .botao {
+    @apply inline-block cursor-pointer rounded-full border-2 border-transparent px-7 py-3.5 text-center text-[0.98rem] font-bold transition duration-150;
+  }
+  .botao-primario {
+    @apply bg-coral text-white hover:-translate-y-0.5 hover:bg-coral-escuro hover:shadow-suave;
+  }
+  .botao-fantasma {
+    @apply border-white/55 text-white hover:bg-white/10;
+  }
+  .secao {
+    @apply px-4 py-14 sm:px-6 lg:py-[4.6rem];
+  }
+  .secao-interna {
+    @apply mx-auto max-w-[1180px];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
