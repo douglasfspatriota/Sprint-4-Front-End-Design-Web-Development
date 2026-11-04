@@ -85,28 +85,6 @@ export default function Contato() {
           <p className="chamada-secao">
             Dúvidas sobre o Dynamic Action Button ou sobre o projeto da equipe PrimeNext? Manda uma mensagem.
           </p>
-
-          <address className="mt-6 space-y-4 not-italic text-cinza">
-            <p>
-              <strong className="text-azul-escuro">E-mail</strong>
-              <br />
-              <a href="mailto:primenext.jovi@estudante.com" className="font-semibold text-azul hover:underline">
-                primenext.jovi@estudante.com
-              </a>
-            </p>
-            <p>
-              <strong className="text-azul-escuro">Redes</strong>
-              <br />
-              {['Instagram', 'TikTok', 'LinkedIn'].map((rede, i) => (
-                <span key={rede}>
-                  {i > 0 && ' · '}
-                  <a href="#contato" className="font-semibold text-azul hover:underline">
-                    {rede}
-                  </a>
-                </span>
-              ))}
-            </p>
-          </address>
         </div>
 
         <form
