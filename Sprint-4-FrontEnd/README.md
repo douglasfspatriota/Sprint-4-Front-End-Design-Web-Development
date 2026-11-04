@@ -4,8 +4,8 @@ Landing page da Challenge **JOVI Smartphone**, evoluída da Sprint 3 (HTML/CSS/J
 
 O projeto apresenta o **Dynamic Action Button**: um botão dinâmico que substitui os mais de dez modos da câmera atual por cinco gestos simples (tap, hold e drag em três direções), cobrindo foto, vídeo, burst, zoom e gravação em mãos livres, com uma IA de contexto ajustando cena, foco e exposição antes do disparo.
 
-🔗 **Deploy na Vercel:** https://SEU-PROJETO.vercel.app  <!-- substituir pelo link real após o deploy -->
-🔗 **Repositório Git:** https://github.com/SEU-USUARIO/SEU-REPOSITORIO  <!-- substituir pelo link real -->
+🔗 **Deploy na Vercel:** [https://SEU-PROJETO.vercel.app](https://sprint-4-front-end-design-web-devel.vercel.app/)
+🔗 **Repositório Git:** [https://github.com/SEU-USUARIO/SEU-REPOSITORIO](https://github.com/douglasfspatriota/Sprint-4-Front-End-Design-Web-Development.git)
 
 ---
 
