@@ -9,4 +9,4 @@ Octavio Kal Oliveira Lima - RM 571838
 Vitor Santos Cintra - RM 569416
 
 Repositório Git: https://github.com/SEU-USUARIO/SEU-REPOSITORIO
-Deploy na Vercel: https://SEU-PROJETO.vercel.app
+Deploy na Vercel: https://sprint-4-front-end-design-web-devel.vercel.app/
